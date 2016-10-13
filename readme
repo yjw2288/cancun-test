@@ -1,0 +1,19 @@
+docker 실행방법
+1. nginx 빌드
+docker build --tag='consultant/nginx'  -f nginx/Dockerfile .
+
+2. nginx 이미지로 도커 실행
+docker run -p 80:80 -d --name nginx nginx
+
+3. nginx 쉘에 접근
+docker exec -i -t nginx bash
+
+* tomcat 구동할 때 localhost 의 톰캣 바라보는 방법
+docker run -p 8080:8080 --net=host  -d --name app app
+
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+
+contaltant
+root
+rootconsultant

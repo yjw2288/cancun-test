@@ -1,0 +1,9 @@
+nginx:
+  image: consultant/nginx
+  ports:
+    - "80:80"
+  net: "host"
+
+app:
+  image: app
+  net: "host"

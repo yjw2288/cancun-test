@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.ocpsoft.prettytime:prettytime:2.1.2.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ocpsoft.prettytime/prettytime/2.1.2.Final/f78a45b17ffab5669131f2d8890770678a241d35/prettytime-2.1.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ocpsoft.prettytime/prettytime/2.1.2.Final/62dc536ba9f3b86f7cd0010c7d18e716c62b086b/prettytime-2.1.2.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
