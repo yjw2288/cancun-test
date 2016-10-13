@@ -1,9 +1,9 @@
 nginx:
-  image: consultant/nginx
+  image: cancun/nginx
   ports:
     - "80:80"
   net: "host"
 
 app:
-  image: app
+  image: cancun/app
   net: "host"
