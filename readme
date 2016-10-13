@@ -14,7 +14,3 @@ docker run -p 8080:8080 --net=host  -d --name app app
 
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
-
-contaltant
-root
-rootconsultant
