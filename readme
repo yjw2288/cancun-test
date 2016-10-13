@@ -1,6 +1,7 @@
 docker 실행방법
 1. nginx 빌드
-docker build --tag='consultant/nginx'  -f nginx/Dockerfile .
+docker build --tag='cancun/nginx'  -f nginx/Dockerfile .
+docker build --tag='cancun/app' .
 
 2. nginx 이미지로 도커 실행
 docker run -p 80:80 -d --name nginx nginx
