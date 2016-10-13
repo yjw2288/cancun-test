@@ -9,7 +9,7 @@ docker run -p 80:80 -d --name nginx nginx
 3. nginx 쉘에 접근
 docker exec -i -t nginx bash
 
-* tomcat 구동할 때 localhost 의 톰캣 바라보는 방법
+* app 구동할 때 app에서 로컬 디비 연결될 수 있도록 설정
 docker run -p 8080:8080 --net=host  -d --name app app
 
 docker stop $(docker ps -a -q)
